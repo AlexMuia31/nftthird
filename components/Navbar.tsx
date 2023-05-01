@@ -9,7 +9,7 @@ type Props = {};
 const Navbar = (props: Props) => {
   const address = useAddress();
   return (
-    <Box sx={{ bgColor: "#001727", position: "fixed", width: "100%" }}>
+    <Box sx={{ bgColor: "#000002", position: "fixed", width: "100%" }}>
       <Container color="#fff" maxW="container.xl">
         <Flex justifyContent="space-between" alignItems="center">
           <Image src="/logo.svg" alt="" width={70} height={100} />
